@@ -48,6 +48,7 @@
   <li>Ejemplo  <sub>Artisan::call("cache:clear");</sub></li>
  </ol>
 </p>
+
 ## Script con los comandos de limpieza por si no dispones de ssh.
 ### Ejecuta los comandos de Artisan para refrescar el entorno
 <sup>

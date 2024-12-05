@@ -1,45 +1,37 @@
 # laravel
 <p>Los comandos mas usados en laravel.</p>
 <p>
-## Migraciones.
+<h3>Migraciones</h3>
  <ul>
- 
   <li>php artisan migrate                                 //lanzar migraciones</li>
-  <li></li>
-  <li></li>
-  <li></li>
-  <li></li>
+  <li>php artisan migrate:refresh                         //rollback y migraciones de nuevo</li>
+  <li>php artisan make:migration create_categories_table  //creacion de tablas</li>
+  <li>php artisan migrate:rollback                        //Rollback</li>
+  <li>php artisan migrate:status                          //estado de las migraciones.</li>
  </ul>
- php artisan migrate:refresh                         //rollback y migraciones de nuevo  
- php artisan make:migration create_categories_table  //creacion de tablas
- php artisan migrate:rollback                        //Rollback
- php artisan migrate:status                          //estado de las migraciones.
+</p>
+<p>
+  <h3>Seeder</h3>
+ <ul>
+  <li>php artisan make:seeder nombre_seeder</li>
+  <li>php artisan db:seed</li>
+ </ul>
 </p>
 
+<p>
+<h3>Migraciones y seeder</h3>
+ <ul>
+  <li>  php artisan migrate --seed            //Lanzar migraciones y seeder secuencialmente</li>
+  <li>php artisan migrate:refresh --seed   //Rollback y migraciones junto con seeder</li>
+ </ul>
+</p>
+
+
+<p>
+ <h3>Limpieza</h3>
 <ul>
-  <li></li>
-  <li></li>
-  <li></li>
-  <li></li>
-  <li></li>
+  <li>php artisan cache:clear</li>
+  <li>php artisan config:clear</li>
+  <li>php artisan config:cache</li>
  </ul>
-
-<p>
-  ## Seeder
-  php artisan make:seeder nombre_seeder
-  php artisan db:seed 
-</p>
-
-<p>
-  ## Migraciones y seeder
-  php artisan migrate --seed            //Lanzar migraciones y seeder secuencialmente
-  php artisan migrate:refresh --seed   //Rollback y migraciones junto con seeder
-</p>
-
-
-<p>
-## Limpieza.
-php artisan cache:clear
-php artisan config:clear
-php artisan config:cache  
 </p>

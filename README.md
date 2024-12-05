@@ -43,7 +43,7 @@
  <br>
  <ol>
   <li>Creamos la ruta y el controlador</li>
-  <li>Añadimos la libreria: <sup>use Illuminate\Support\Facades\Artisan;</sup>  </li>
+  <li>Añadimos la libreria: <sub>use Illuminate\Support\Facades\Artisan;</sub>  </li>
   <li> Mediante el comando  <sub>Artisan::call($command, $arguments);</sub>   vamos generando comandos </li>
   <li>Ejemplo  <sub>Artisan::call("cache:clear");</sub></li>
  </ol>
@@ -57,6 +57,5 @@
     Artisan::call('config:clear');
     Artisan::call('view:clear');
     Artisan::call('route:clear');
-    return "Entorno limpiado y refrescado correctamente.";
-</sup>   
+    return "Entorno limpiado y refrescado correctamente.";   
 

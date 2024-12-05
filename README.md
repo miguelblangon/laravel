@@ -33,5 +33,30 @@
   <li>php artisan cache:clear</li>
   <li>php artisan config:clear</li>
   <li>php artisan config:cache</li>
+   <li>php artisan route:cache</li>
  </ul>
 </p>
+
+## Utiles
+<p>
+ para por si compras o adquieres un hosting el cual no permite ssh y quieres lanzar comandos se puede hacer mediante una ruta de la siguiente manera.
+ <br>
+ <ol>
+  <li>Creamos la ruta y el controlador</li>
+  <li>Añadimos la siguiente libreria: <sub>use Illuminate\Support\Facades\Artisan;</sub>  </li>
+  <li> Mediante el comando  <sub>Artisan::call($command, $arguments);</sub>   vamos generando comandos </li>
+  <li>Ejemplo  <sub>Artisan::call("cache:clear");</sub></li>
+ </ol>
+</p>
+<p>
+## Script con los comandos de limpieza por si no dispones de ssh
+>  // Ejecuta los comandos de Artisan para refrescar el entorno
+ <sup>
+  Artisan::call('cache:clear');
+    Artisan::call('config:clear');
+    Artisan::call('view:clear');
+    Artisan::call('route:clear');
+
+    return "Entorno limpiado y refrescado correctamente.";
+ </sup>   
+    </p>

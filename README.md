@@ -2,14 +2,27 @@
 <p>Los comandos mas usados en laravel.</p>
 <p>
 ## Migraciones.
- php artisan migrate                                 //lanzar migraciones
+ <ul>
+ 
+  <li>php artisan migrate                                 //lanzar migraciones</li>
+  <li></li>
+  <li></li>
+  <li></li>
+  <li></li>
+ </ul>
  php artisan migrate:refresh                         //rollback y migraciones de nuevo  
  php artisan make:migration create_categories_table  //creacion de tablas
  php artisan migrate:rollback                        //Rollback
  php artisan migrate:status                          //estado de las migraciones.
 </p>
 
-
+<ul>
+  <li></li>
+  <li></li>
+  <li></li>
+  <li></li>
+  <li></li>
+ </ul>
 
 <p>
   ## Seeder

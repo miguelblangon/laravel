@@ -50,13 +50,12 @@
 </p>
 <p>
 ## Script con los comandos de limpieza por si no dispones de ssh
->  // Ejecuta los comandos de Artisan para refrescar el entorno
- <sup>
-  Artisan::call('cache:clear');
+> Ejecuta los comandos de Artisan para refrescar el entorno
+<sup>
+    Artisan::call('cache:clear');
     Artisan::call('config:clear');
     Artisan::call('view:clear');
     Artisan::call('route:clear');
-
     return "Entorno limpiado y refrescado correctamente.";
- </sup>   
+</sup>   
     </p>

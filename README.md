@@ -37,6 +37,24 @@
  </ul>
 </p>
 
+
+<p>
+ <h3>Modelo</h3>
+ <ul>
+   <li> php artisan make:model Flight --controller --resource --requests </li>
+   <li> php artisan make:model Flight -mfsc	-> Generate a model and a migration, factory, seeder, and controller </li>
+ </ul>
+
+</p>
+
+
+
+
+
+
+
+
+
 ## Utiles
 <p>
  para por si compras o adquieres un hosting el cual no permite ssh y quieres lanzar comandos se puede hacer mediante una ruta de la siguiente manera.

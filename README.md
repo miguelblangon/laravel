@@ -69,7 +69,7 @@
     return "Entorno limpiado y refrescado correctamente.";   
 <br>
 
-## Comando de artias para generar el password interno de cifrado
+## Comando de artisan para generar el password interno de cifrado
 
 ```
  php artisan key:generate

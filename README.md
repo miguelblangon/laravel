@@ -47,14 +47,6 @@
 
 </p>
 
-
-
-
-
-
-
-
-
 ## Utiles
 <p>
  para por si compras o adquieres un hosting el cual no permite ssh y quieres lanzar comandos se puede hacer mediante una ruta de la siguiente manera.
@@ -75,4 +67,33 @@
     Artisan::call('view:clear');
     Artisan::call('route:clear');
     return "Entorno limpiado y refrescado correctamente.";   
+<br>
+
+## Comando de artias para generar el password interno de cifrado
+
+```
+ php artisan key:generate
+
+```
+
+
+
+
+
+
+## Composer Comandos.
+### Comandos basicos de composer.
+<br>
+<ul>
+    <li> Instalar: composer install</li>
+    <li> Actualizar: composer update  </li>
+    <li> Autoload: composer dump-autoload </li>
+  </ul>
+<br>
+
+
+
+
+
+    
 

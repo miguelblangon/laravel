@@ -80,9 +80,8 @@
 
 
 
-
-## Composer Comandos.
-### Comandos basicos de composer.
+# Composer
+## Comandos.
 <br>
 <ul>
     <li> Instalar: composer install</li>
